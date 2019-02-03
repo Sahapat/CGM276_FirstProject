@@ -9,7 +9,7 @@ namespace UDPClient
     {
         static void Main(string[] args)
         {
-            String server = "127.0.0.1";
+            String server = "54.169.188.111";
             int serverPort = 5000;
             String msg = "Sahapat tong-on ___ 5901292";
             byte[] sentPackage = Encoding.ASCII.GetBytes(msg);
